@@ -1,0 +1,27 @@
+tensor(10.9000, requires_grad=True)
+tensor(10.8314, requires_grad=True)
+tensor(10.8310, requires_grad=True)
+tensor(10.8310, requires_grad=True)
+tensor(10.8310, requires_grad=True)
+tensor(10.8310, requires_grad=True)
+tensor(10.8310, requires_grad=True)
+tensor(10.8310, requires_grad=True)
+tensor(10.8310, requires_grad=True)
+tensor(10.8310, requires_grad=True)
+minima: tensor(10.8310, requires_grad=True) Value at minima: 2.3810280254110694e-06
+
+
+It can be observed that the minima is hit quite fast. By changing the initial guess, we can end up with a different minima.
+Following is the output with an initial guess = -8
+
+tensor(-2.8077, requires_grad=True)
+tensor(-1.0812, requires_grad=True)
+tensor(-0.8361, requires_grad=True)
+tensor(-0.8310, requires_grad=True)
+tensor(-0.8310, requires_grad=True)
+tensor(-0.8310, requires_grad=True)
+tensor(-0.8310, requires_grad=True)
+tensor(-0.8310, requires_grad=True)
+tensor(-0.8310, requires_grad=True)
+tensor(-0.8310, requires_grad=True)
+minima: tensor(-0.8310, requires_grad=True) Value at minima: 2.9571716808618476e-07
